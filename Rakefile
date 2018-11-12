@@ -12,6 +12,7 @@ end
 
 task :environment do
   require_relative 'config/environment'
+  #require 'sinatra/activerecord/rake'
 end
 
 Rake::Task["db:drop"].clear
